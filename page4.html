@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Косметология — Бьюти система</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-glow bg-glow--1"></div>
+  <div class="bg-glow bg-glow--2"></div>
+  <div class="bg-glow bg-glow--3"></div>
+
+  <header class="header">
+    <a href="index.html" class="logo">Бьюти <span>система</span></a>
+    <nav class="nav" id="nav">
+      <a href="index.html#about">О создателе</a>
+      <a href="index.html#services">Услуги</a>
+      <a href="index.html#philosophy">Философия</a>
+      <a href="index.html#reviews">Отзывы</a>
+      <a href="index.html#map">Карта</a>
+      <a href="index.html#contacts">Контакты</a>
+      <a href="index.html#booking" class="nav__cta">Связаться</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Меню">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main class="service-page">
+    <div class="service-hero reveal">
+      <a href="index.html#services" class="service-hero__back">← Все услуги</a>
+      <p class="section-label">Направление</p>
+      <h1>Косметология</h1>
+      <p>
+        Ваша кожа — это холст, на котором мы создаём шедевры. Косметология — это
+        не просто уход, это искусство, которое помогает вам чувствовать себя
+        уверенно, сиять и наслаждаться отражением в зеркале.
+      </p>
+    </div>
+
+    <div class="service-list">
+      <article class="service-item glass-card reveal">
+        <div class="service-item__head">
+          <h2 class="service-item__title">Алмазная процедура для кожи лица</h2>
+          <span class="service-item__price">8 000 ₽</span>
+        </div>
+        <p class="service-item__desc">
+          Очищение, мезотерапия или гидропилинг, маска, крем. Деликатное
+          обновление кожи и мгновенное сияние.
+        </p>
+      </article>
+
+      <article class="service-item glass-card reveal">
+        <div class="service-item__head">
+          <h2 class="service-item__title">Жемчужина океана</h2>
+          <span class="service-item__price">8 000 ₽</span>
+        </div>
+        <p class="service-item__desc">
+          Очищение, жемчужные нити или порошок, мезо- или гидропилинг, маска,
+          крем. Ритуал для питания и выравнивания тона.
+        </p>
+      </article>
+
+      <article class="service-item glass-card reveal">
+        <div class="service-item__head">
+          <h2 class="service-item__title">BUBBLES KITS (карбокситерапия)</h2>
+          <span class="service-item__price">по запросу</span>
+        </div>
+        <p class="service-item__desc">
+          Аппаратная методика с контролируемым введением углекислого газа.
+          Ускоряет метаболизм, улучшает насыщение кожи кислородом и усиливает
+          эффект омоложения и отбеливания.
+        </p>
+      </article>
+    </div>
+
+    <div class="service-cta reveal">
+      <a href="index.html#booking" class="btn btn--primary">Записаться на процедуру</a>
+      <a href="index.html#services" class="btn btn--ghost">Другие услуги</a>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>© Бьюти система. Кабинет красоты для полного уединения.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

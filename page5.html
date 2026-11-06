@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Окрашивание — Бьюти система</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-glow bg-glow--1"></div>
+  <div class="bg-glow bg-glow--2"></div>
+  <div class="bg-glow bg-glow--3"></div>
+
+  <header class="header">
+    <a href="index.html" class="logo">Бьюти <span>система</span></a>
+    <nav class="nav" id="nav">
+      <a href="index.html#about">О создателе</a>
+      <a href="index.html#services">Услуги</a>
+      <a href="index.html#philosophy">Философия</a>
+      <a href="index.html#reviews">Отзывы</a>
+      <a href="index.html#map">Карта</a>
+      <a href="index.html#contacts">Контакты</a>
+      <a href="index.html#booking" class="nav__cta">Связаться</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Меню">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main class="service-page">
+    <div class="service-hero reveal">
+      <a href="index.html#services" class="service-hero__back">← Все услуги</a>
+      <p class="section-label">Направление</p>
+      <h1>Окрашивание</h1>
+      <p>
+        Пусть ваши волосы станут холстом для самовыражения! Выберите свой цвет
+        и начните новое приключение.
+      </p>
+    </div>
+
+    <div class="service-list">
+      <article class="service-item glass-card reveal">
+        <div class="service-item__head">
+          <h2 class="service-item__title">Окрашивание в один тон</h2>
+          <span class="service-item__price">от 3 000 ₽</span>
+        </div>
+        <p class="service-item__desc">
+          Классическая процедура, которая позволяет добиться однородного и
+          стойкого цвета волос.
+        </p>
+      </article>
+
+      <article class="service-item glass-card reveal">
+        <div class="service-item__head">
+          <h2 class="service-item__title">Эллюминирование</h2>
+          <span class="service-item__price">от 10 000 ₽</span>
+        </div>
+        <p class="service-item__desc">
+          Эффект блестящих, здоровых и ухоженных волос, при этом не портит их
+          структуру.
+        </p>
+      </article>
+
+      <article class="service-item glass-card reveal">
+        <div class="service-item__head">
+          <h2 class="service-item__title">Блондирование</h2>
+          <span class="service-item__price">от 3 000 ₽</span>
+        </div>
+        <p class="service-item__desc">
+          Обесцвечивание волос и их последующее окрашивание в светлые оттенки.
+        </p>
+      </article>
+
+      <article class="service-item glass-card reveal">
+        <div class="service-item__head">
+          <h2 class="service-item__title">Прозрачное окрашивание</h2>
+          <span class="service-item__price">от 5 000 ₽</span>
+        </div>
+        <p class="service-item__desc">
+          Не затрагивает натуральную базу, утолщает свой натуральный волос,
+          даёт бриллиантовый блеск.
+        </p>
+      </article>
+
+      <article class="service-item glass-card reveal">
+        <div class="service-item__head">
+          <h2 class="service-item__title">Веган-красители</h2>
+          <span class="service-item__price">по запросу</span>
+        </div>
+        <p class="service-item__desc">
+          Красители растительного происхождения, имеющие сертификат качества
+          «Клевер».
+        </p>
+      </article>
+    </div>
+
+    <div class="service-cta reveal">
+      <a href="index.html#booking" class="btn btn--primary">Записаться на окрашивание</a>
+      <a href="index.html#services" class="btn btn--ghost">Другие услуги</a>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>© Бьюти система. Кабинет красоты для полного уединения.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

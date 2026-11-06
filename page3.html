@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Маникюр и педикюр — Бьюти система</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-glow bg-glow--1"></div>
+  <div class="bg-glow bg-glow--2"></div>
+  <div class="bg-glow bg-glow--3"></div>
+
+  <header class="header">
+    <a href="index.html" class="logo">Бьюти <span>система</span></a>
+    <nav class="nav" id="nav">
+      <a href="index.html#about">О создателе</a>
+      <a href="index.html#services">Услуги</a>
+      <a href="index.html#philosophy">Философия</a>
+      <a href="index.html#reviews">Отзывы</a>
+      <a href="index.html#map">Карта</a>
+      <a href="index.html#contacts">Контакты</a>
+      <a href="index.html#booking" class="nav__cta">Связаться</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Меню">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main class="service-page">
+    <div class="service-hero reveal">
+      <a href="index.html#services" class="service-hero__back">← Все услуги</a>
+      <p class="section-label">Направление</p>
+      <h1>Маникюр <em>и педикюр</em></h1>
+      <p>
+        Ухоженные руки и стопы — это не только эстетика, но и здоровье. Мы
+        работаем с качественными материалами и уделяем внимание каждой детали.
+      </p>
+      <p class="service-hero__note" style="margin-top: 16px; font-size: 0.85rem; color: var(--text-muted);">
+        <em>Актуальный список процедур и цены уточняйте при записи — страница
+        временно в разработке.</em>
+      </p>
+    </div>
+
+    <div class="service-list">
+      <article class="service-item glass-card reveal">
+        <div class="service-item__head">
+          <h2 class="service-item__title">Маникюр с покрытием</h2>
+          <span class="service-item__price">по запросу</span>
+        </div>
+        <p class="service-item__desc">
+          Комбинированный маникюр, выравнивание, покрытие гель-лаком, уход за
+          кутикулой. Стойкость и аккуратность.
+        </p>
+      </article>
+
+      <article class="service-item glass-card reveal">
+        <div class="service-item__head">
+          <h2 class="service-item__title">Педикюр с покрытием</h2>
+          <span class="service-item__price">по запросу</span>
+        </div>
+        <p class="service-item__desc">
+          Обработка стоп, коррекция ногтей, покрытие гель-лаком. Деликатный уход
+          и комфорт на каждый день.
+        </p>
+      </article>
+    </div>
+
+    <div class="service-cta reveal">
+      <a href="index.html#booking" class="btn btn--primary">Уточнить и записаться</a>
+      <a href="index.html#services" class="btn btn--ghost">Другие услуги</a>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>© Бьюти система. Кабинет красоты для полного уединения.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
